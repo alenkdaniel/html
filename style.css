@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+nav{
+    background-color:dimgray;
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin : 3px;
+    
+}
+.container1{
+    margin: 5px;
+    border: 10px;
+
+}
+   
+.container2{
+    margin:5px;
+    border-width: 5px;
+    
+}
