@@ -6,6 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form>
+    $('form').jsonForm({
+          "schema": {
+            "name": {
+              "title":"Name",
+              "description":"Nickname allowed",
+              "type":"string"
+
+         },
+            "gender": {
+              "title":"Gender",
+              "description":"Your gender",
+              "type":"string",
+              "enum": [
+                "male",
+                "female",
+                "alien"
+              ]
+            }
+          }
+        });
+        $('form').jsonForm({
+              onSubmit:function (errors, values) {
+                if (errors) {
+                  // do something
+                }
+                else {
+                  // do something
+                }
+              }
+            });
+        </form>
+            
+        
 </body>
 </html>

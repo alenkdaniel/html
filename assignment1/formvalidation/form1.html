@@ -2,28 +2,29 @@
 <html>
 <body>
 
-<h2>HTML Forms</h2>
+<h2>HTML Forms Registration</h2>
 
-<form action="form1.html">
-  <label for="name">Name:</label><br>
+<form action="form.js">
+  <label for="name" id="n1">Name:</label><br>
   <input type="text" id="name" name="name"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" ><br>
-  <label for="pwd">Password:</label></form><br>
-  <input type="password" id="pwd" name="pwd"><br><br>
-  <input type="submit" value="Submit">
+
+  <label for="pwd" id="pwd1">Password:</label><br>
+  <input type="password" id="pwd1" ><br>
+
+  <input type="button" value="Submit" id="sub" onclick="act()" >
 </form> 
-<select id="formsel">
-    <option value="text ">Name:</option>
-    <option value="email">Email:</option>
-    <option value="password">Password: </option>
-</select>
-<input type='text' id='input' />
+<p id="pa1"></p>
+<p id="pa2"></p>
+
 <script>
-    document.getElementById('input').onkeyup = function()
-    {
-        var input_val = document.getElementById('input').value;
-        document.getElementById("formsel").value = input_val;
+    
+    function act(){
+        document.getElementById("pa1").innerHTML=Registeration is Completed;
+        const ay1=document.getElementById("name");
+        const ay2=document.getElementById("sub");
+        const ay3=document.getElementById("pa2");
+        ay3.innerHTML="Hi guys!!!"+name.value
+        
     }
     </script>
     

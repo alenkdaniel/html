@@ -8,24 +8,20 @@
 </head>
 
 <body>
+    <h1>paragraph</h1>
 
-    <p id="paragraph">A paragraph usually contains more than one sentence and it is usually about one topic. The first
+    <p id="para1">A paragraph usually contains more than one sentence and it is usually about one topic. The first
         sentence in a paragraph is sometimes called the key or topic sentence because it gives us the key to what the
         paragraph will be about. The other sentences usually relate to the key sentence.</p>
-    <p id="paragraph1">Click me to change the text!</p>
-    <button id="=button">Click Me</button>
-    <!-- <script>
-        let newBtn1 = document.getElementById("button").addEventListener("click",button);
-        let newBtn2 = document.getElementById("paragraph").addEventListener("click",paragraph);
-        const changeText = document.querySelector("#paragraph1");
-        changeText.addEventListener("click", function() {
-  changeText.textContent = "Text has been changed!"; -->
+    
+    <button id="=btn1" style="background-color: orange;">Click Me</button>
+    
     <script>
-        const v = document.getElementById("button");
-        const n= document.getElementById("paragraph");
-        v.addEventListener(clickMe);
-        function clickMe() {
-            document.getElementById("paragraph").innerHTML="HiEveryone";
+        const v = document.getElementById("btn1");
+        const n= document.getElementById("para1");
+        v.addEventListener("click",click);
+        function click() {
+            document.getElementById("para1").innerHTML="A paragraph usually contains more than one sentence and it is usually about one topic";
         }
     </script>
 </body>
