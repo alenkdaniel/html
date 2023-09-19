@@ -2,57 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #div1{
+        #container1{
             height: 100px;
             width: 100px;
             background-color: green;
-            border-radius: 50%;
+            border-radius: 25px;
+        }
+        #container2{
+            /* border:2px solid wheat; */
+              padding: 10px,10px,10px,0px;
+              background-color:black;
+              width: 1750px;
 
         }
-        nav{
-            background-color: black;
-
+        #b1{
+            background-color:#f08804;
         }
-        #az{
-        font-size: 25px;
-        color: orange;
+        #a1{
+            color: orange;
+            font-size: 25px;
+            margin-left: 0px;
         }
-        #acc1{
-            text-anchor:
-            
-        }
-        #b12{
-            color: white;
-            background-color: orange
-            ;
-        }
-        .a5{
+        /* #a2{
+            margin: 2px;
+        } */
+        /* nav{
+            border:3px solid blue;
+           
+        } */
+        .a{
+            margin: 200px;
             height: 60px;
-           margin: 00px 200px 10px 20px;
-           color: white;
-
+            text-decoration: none;
         }
-
-             
+        #b1{
+            margin: 0px;
+        }
+     
     </style>
 </head>
-<body>
-    <div id="div1" class="hi">
-   </div>
-   <div id="div2">
-    <nav>
-        <a href="#amazon" id="az" class="a5">Amazon.in</a>
-        <a href="account" class="a5">Account</a>
-        <a href="#mycart" class="a5">Mycart</a>
-        <a href="#contactus" class="a5">Contact us</a>
-        <input type="text" id="searchbar" name="Search" placeholder="Search Amazon.in" class="a5">
-        <button type="button" id="b12" class="a5">Submit</button>
-    </nav>
-
-   </div>
-    
+<body >
+    <div id="container1">
+       
+    </div>
+    <div id="container2">
+        <nav>
+            <a href="#" id="a1" style="text-decoration: none;">amazone.in</a>
+            <a href="#" id="a2" class="a" style="color: white;">account</a>
+            <a href="#" id="a3"class="a" style="color: white;">Mycart</a>
+            <a href="#" class="a" style="color: white;">contact us</a>
+           
+            <input type="text" placeholder="search amazone.in">
+            <button id="b1" style="color: white;" >search</button>
+        </nav>
+    </div>
 </body>
 </html>
