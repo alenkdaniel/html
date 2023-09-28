@@ -62,9 +62,8 @@ nav h1 {
     justify-content: center;
     color: white;
 }
-.container{
-    background-image: url(netflix1.jpg);
+.container1{
+    /* background-image: url(netflix1.jpg); */
     display:inline-flexbox;
-   
-    
 }
+
