@@ -55,9 +55,16 @@ nav h1 {
 }
 
 .inner-container1 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+.container{
+    background-image: url(netflix1.jpg);
+    display:inline-flexbox;
+   
+    
 }
