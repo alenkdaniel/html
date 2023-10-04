@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 .container{
@@ -16,11 +17,21 @@
     background-color: bisque;
     width: 10vw;
     height: 10vh;
+    text-align: center;
+    justify-content: center;
     display: flex;
     align-items: center;
-    transition: all 3s;
+    /* transition: all 3s; */
+    transition: transform 3s ease-in-out 0s;
 }
 .box:hover{
-    background-color: black;
+    /* background-color: black; */
+    border-radius: 100px;
+    transform: translateX(125px);
+    transform: translateY(-125px);
+    transform: translate(125px -125px);
+    transform: skew(-40deg);
+    transform: scale(5);
+    transform: rotateX(360deg);
 
 }
