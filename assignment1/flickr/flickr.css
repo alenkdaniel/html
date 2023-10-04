@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    display: flex;
+}
+
+
+
+nav {
+    border: 2px solid red;
+}
+
+.cl{
+    background-color: red;
+    width:500px;
+    height: 300px;
+    padding: 50px;
+
+}
+.content{
+    align-items: center;
+}
