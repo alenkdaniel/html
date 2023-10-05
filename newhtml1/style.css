@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+}
+.box{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+}
