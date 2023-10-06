@@ -9,6 +9,21 @@
     height: 50vh;
     margin: auto;
     display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start; */
+     align-items: stretch; 
 }
 .box{
     background-color: black;
@@ -16,4 +31,5 @@
     width: 250px;
     height: 150px;
     margin: 5px;
+    text-align: center;
 }
