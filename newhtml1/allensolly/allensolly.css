@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 .d1{
-    
+    width: 100vw;
+    height: 15vh;
+    di
 }
-.i1{
+.c1{
     width: 45px;
     height: 45px;
+    display: block;
+}
+.p1{
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

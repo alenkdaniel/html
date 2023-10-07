@@ -32,12 +32,19 @@
     height: 150px;
     margin: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 50px;
 }
 .box1{
     order: 1;
     flex-grow: 3;
     flex-shrink: 3;
+    /* flex-basis: 50px; controls width if flex-direction  */
+    /* flex: flex-grow flex-shrink flex-basis; */
+    flex: 0 0 50px ;
+    align-self: flex-end;
+    align-self: flex-start;
+    align-self: center;
+
 }
 /* .box2{
     order: 2;
