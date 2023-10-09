@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.marque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: rgb(14, 48, 81);
+    color: white;
+}
+marquee.mark{
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
 .nav {
     border: 2px solid red;
     display: flex;
