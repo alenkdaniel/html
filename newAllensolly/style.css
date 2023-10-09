@@ -93,11 +93,18 @@
     justify-content: center;
 }
 
-.s2{
+/* .s2{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    justify-content:space-between;
+} */
+/* .search{
+        width: 260px;
+        border: 1px solid #555;
+        display: block;
+        padding: 9px 4px 9px 40px;
+        background: transparent url("images/icons8-search-50.png" ) no-repeat 15px ;
+    } */
 
 .third{
     display: flex;
