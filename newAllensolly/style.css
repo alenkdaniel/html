@@ -127,3 +127,8 @@ marquee.mark{
     align-items: center;
     justify-self: center;
 }
+.s2{
+display: flex;
+align-items: center;
+margin: 10px;
+}
