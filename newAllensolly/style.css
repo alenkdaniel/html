@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+
+    
+
+}
+
+
+.left select {
+    width: 120px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border: 0;
+    margin-left: 10PX;
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stores {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+.contact {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heart {
+    margin-right: 20px;
+}
+
+.bag {
+    margin-right: 20px;
+}
+
+
+.container1 {
+    width: 100%;
+}
+
+.container1 img {
+    width: 100%;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+
+.s2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third{
+    display: flex;
+    /* margin-left: 10px; */
+    justify-content:space-evenly;
+    align-items: center;
+    justify-self: center;
+}
