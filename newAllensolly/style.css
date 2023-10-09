@@ -54,6 +54,8 @@
     margin: 0px 20px 0px 0px;
     justify-content: center;
     align-items: center;
+    border-right: 2px solid white;
+    padding-right: 20px;
 
 }
 
@@ -62,15 +64,20 @@
     margin: 0px 20px 0px 0px;
     justify-content: center;
     align-items: center;
+    border-right: 2px solid white;
+    padding-right: 20px;
 
 }
 
 .heart {
     margin-right: 20px;
+    border-right: 2px solid white;
+    padding-right: 20px;
 }
 
 .bag {
     margin-right: 20px;
+    
 }
 
 
