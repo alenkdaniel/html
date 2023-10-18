@@ -3,37 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.firstbox{
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-area: myArea;
+}
+
 .container{
     display: grid;
-    display: inline grid;
+    /* display: inline-grid; */
     grid-template-columns: auto auto auto;
-    background-color: rgb(118, 118, 255);
-    /* text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    align-content:; */
-    margin: auto;
-    width: 100vw;
-    height: 40vh;
-    row-gap: 5px;
-    column-gap: 5px;
-    text-align: center;
-    gap: 50px 100px;
+    background-color: #2196F3;
+    padding: 10px;
+    column-gap: 50px;
+    row-gap: 20px;
+    grid-template-areas: 'myArea myArea .' 'myArea myArea .';
 }
 .d1{
-    /* display: flex; */
-    background-color: aqua;
-    border: 1px solid black;
-    font-size: 20px;
-    text-align: center;
-    /* padding: 20px;
-    justify-content: center; */
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 
 
-}
-.firstbox{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
